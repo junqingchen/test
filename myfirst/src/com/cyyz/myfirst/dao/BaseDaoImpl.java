@@ -3,8 +3,7 @@ package com.cyyz.myfirst.dao;
 /**
  * Created by jq.chen on 2017/6/1.
  */
-public class BaseDaoImpl extends  BaseDao{
-
+public  class BaseDaoImpl implements BaseDao{
 
     @Override
     public void save(int id, String name, String password) {
@@ -32,7 +31,7 @@ public class BaseDaoImpl extends  BaseDao{
     }
 
     @Override
-    public Stirng getPassword(String id) {
+    public String getPassword(String id) {
         return null;
     }
 }
