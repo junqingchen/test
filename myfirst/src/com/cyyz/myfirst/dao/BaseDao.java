@@ -8,4 +8,5 @@ interface BaseDao {
     void update(int id,String name,String password);
     void delete(int id);
     String getName(int id);
+    void test(String name);
 }
