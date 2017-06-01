@@ -9,4 +9,5 @@ interface BaseDao {
     void delete(int id);
     String getName(int id);
     void test(String name);
+    Stirng getPassword(String id);
 }
