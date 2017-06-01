@@ -7,4 +7,5 @@ interface BaseDao {
     void save(int id,String name,String password);
     void update(int id,String name,String password);
     void delete(int id);
+    String getName(int id);
 }
