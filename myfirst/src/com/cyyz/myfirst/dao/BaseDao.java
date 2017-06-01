@@ -6,9 +6,9 @@ package com.cyyz.myfirst.dao;
 interface BaseDao {
     /**
      * 添加一条新的记录
-     * @param id
-     * @param name
-     * @param password
+     * @param id 用户ID
+     * @param name 用户名称
+     * @param password 用户密码
      */
     void save(int id,String name,String password);
     void update(int id,String name,String password);
